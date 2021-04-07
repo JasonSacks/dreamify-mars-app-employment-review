@@ -21,7 +21,7 @@ const CreditsDisplay = ({
     };
 
     return (
-        <span style={style} >Credits: {credits.value}</span>
+        <span style={style} >Credits: {credits && credits.value}</span>
     )
 }
 
